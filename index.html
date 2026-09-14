@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rocco Luigi Racamato is a Computer Engineering Master's Graduate whose recent work centers on 
+                                      low-level Systems Security and applied Machine Learning" />
+    <title>Rocco Luigi Racamato · Master's Graduate</title>
+    <link rel="icon" href="LR_Logo.svg" type="image/svg+xml" />
+    <link rel="icon" href="LR_Logo.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="LR_Logo.png" />
+    <meta name="theme-color" content="#0b0d10" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Sora:wght@500;600;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        
+        <a href="#top">
+          <img class="monogram" src="LR_Logo.png" aria-label="Rocco Luigi Racamato, back to top">
+        </a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#stack">Stack</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero container" id="top" aria-labelledby="hero-title">
+        <p class="eyebrow">Master of Science in Computer Engineering · Italy</p>
+        <h1 id="hero-title">Hey, I’m Rocco Luigi.</h1>
+        <p class="hero-statement">My recent work centers on low-level Systems Security and applied Machine Learning.</p>
+        <p class="hero-detail">Top Honors Master's Graduate in Computer Science Engineering, Cybersecurity and Cloud at Politecnico di Bari, 
+          with a top-mark Bachelor's Degree in Computer Science.
+        </p>
+        <div class="hero-actions">
+          <a class="hero-link hero-link-primary" href="#work">View Projects <span aria-hidden="true">↓</span></a>
+          <a class="hero-link hero-link-primary" href="#contact" aria-label="Contact Me">Let's Connect <span aria-hidden="true">↗︎</span></a>
+        </div>
+      </section>
+
+      <section class="section container" id="about" aria-labelledby="about-title">
+        <p class="section-label">About</p>
+        <div class="section-intro">
+          <h2 id="about-title">
+            Rigorous systems understanding.
+            <span class="heading-subline">Bold engineering execution.</span>
+          </h2>
+          <div class="prose">
+            <p>
+              My trajectory through Computer Engineering is fueled by an intense drive to dissect, 
+              challenge, and master complex computing systems at every layer. This is why I approach 
+              Cybersecurity not as a narrow specialization, but as an interconnected discipline where 
+              true robustness requires complete visibility: from bare-metal kernel mechanics and operating 
+              system primitives to automated access control policies and data-level security.
+            </p>
+            <p>
+              I approach vulnerability research and exploit mechanics with systematic engineering rigor:
+              isolating root causes, tracing control-flow deviations, and mapping system attack surfaces.
+              In parallel, my work bridges security engineering with applied machine learning through the
+              development of a deep learning pipeline to automate data protection and policy governance.
+            </p>
+            <p>
+              Whether weaponizing an Android kernel vulnerability down to privilege and context escalation, 
+              or deploying deep learning models to automatically enforce Mandatory Access Control across 
+              enterprise data, my standard is uncompromising.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="work" aria-labelledby="work-title">
+        <p class="section-label">Selected Work</p>
+        <div class="section-heading">
+          <h2 id="work-title">Systems built around real constraints.</h2>
+          <p>Projects focused on advanced automated privacy enabling, exploit development and data reduction experimental analysis.</p>
+        </div>
+        <div class="projects">
+          <article class="project">
+            <div class="project-number">01</div>
+            <div class="project-content">
+              <h3>BiSense</h3>
+              <p>An enterprise-grade foundational enabler for privacy compliance and security policies. In particular, 
+                the system automatically assigns sensitivity levels to enterprise data and populates the object side of a Mandatory Access Control (MAC) 
+                policy through the use of State-of-the-Art Machine Learning and Deep Learning Models.
+              </p>
+              <p class="project-highlights">Mandatory Access Control · Deep Learning architectures · Generative AI · Large Language Models</p>
+              <ul class="tags" aria-label="Technologies"><li>Python</li><li>TabEmb (2026)</li><li>Gemma 4</li><li>Graph Attention Networks</li>
+                <li>Graph Convolutional Networks</li></ul>
+            </div>
+            <span class="project-description">Curricular Internship and Master's Thesis Project</span>
+            <div class="project-footer">
+              <a class="project-link"
+                href="https://github.com/HustLR01/BiSense" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="View BiSense repository on GitHub"
+              >
+                <span>Repository</span>
+                <span aria-hidden="true">↗︎</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-number">02</div>
+            <div class="project-content">
+              <h3>Android Remote Root Privilege Escalation PoC</h3>
+              <p>A Proof of Concept exploit chaining a malicious .apk backdoor with a sophisticated weaponization of a Use-After-Free (UAF) 
+                Kernel vulnerability in the Android Binder IPC subsystem. The exploit does not merely set the uid and gid to 0 (root) but also, crucially, allows to 
+                elevate the SELinux context from untrusted_app to root (su).</p>
+              <p class="project-highlights">Kernel Vulnerabilities · Backdoors · SELinux context elevation · Educational Ethical Hacking · 
+                System-level Mobile Security Analysis through Red Teaming · Exploit Development · Privilege Escalation
+              </p>
+              <ul class="tags" aria-label="Technologies"><li>C / C++</li><li>Smali</li><li>KASAN</li><li>gdb</li></ul>
+            </div>
+            <span class="project-description">Academic Penetration Test Project</span>
+            <div class="project-footer">
+              <button 
+                type="button"
+                class="project-link project-btn"
+                id="poc-request-btn"
+                data-email="roccoluigiracamato@gmail.com"
+                aria-label="Request access to Android PoC writeup via email"
+              >
+                <span class="btn-text">Request Access</span>
+                <span aria-hidden="true">↗︎</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-number">03</div>
+            <div class="project-content">
+              <h3>Data Reduction Trade-off Analysis</h3>
+              <p>
+                An empirical research project evaluating data reduction techniques through systematic experimental campaigns, benchmarking 
+                recommendation metrics (Recall, NDCG, Gini Index, Average Popularity) directly against carbon emissions and computational footprint.
+              </p>
+              <p class="project-highlights">
+                Empirical Evaluation · Data Reduction Methodologies · Trade-off Analysis · Experimental Testing & Documentation · Green AI
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Python</li>
+                <li>Data Reduction</li>
+                <li>Experimental Analysis</li>
+              </ul>
+            </div>
+            <span class="project-description">Curricular Internship and Bachelor's Thesis Project</span>
+          </article>
+        </div>
+      </section>
+
+
+      <section class="section container" aria-labelledby="focus-title">
+        <p class="section-label">Engineering Focus</p>
+        <h2 id="focus-title">Interests and problems I like working on.</h2>
+        <ol class="focus-list">
+          <li><span>01</span>OS and Systems Security, Internals and Vulnerability Research</li> 
+          <li><span>02</span>Advanced Security Enhancing or Privacy Preserving Systems</li>
+          <li><span>03</span>Cybersecurity for AI and Adversarial Machine Learning</li>
+          <li><span>04</span>AI-driven Cybersecurity and Threat Detection Systems</li>     
+        </ol>
+      </section>
+
+      <section class="section container" id="stack" aria-labelledby="stack-title">
+        <p class="section-label">Core Technologies</p>
+        <h2 id="stack-title">A broad and modern technical stack.</h2>
+        <div class="stack-grid">
+          <div class="stack-group"><h3>Languages</h3><ul><li>Python</li><li>C/C++</li><li>Java</li><li>SQL</li><li>JavaScript</li><li>Solidity</li></ul></div>
+          <div class="stack-group"><h3>Cybersecurity</h3><ul><li>Wireshark</li><li>KASAN</li><li>gdb</li><li>Burp Suite</li><li>OWASP ZAP</li><li>SonarQube</li></ul></div>
+          <div class="stack-group"><h3>Data & Infra</h3><ul><li>AWS Ecosystem</li><li>Docker</li><li>PostgreSQL / pgvector</li><li>MongoDB</li><li>MySQL</li></ul></div>
+          <div class="stack-group"><h3>AI & ML</h3><ul><li>PyTorch</li><li>TensorFlow</li><li>Hugging Face</li><li>LLMs / RAG</li><li>Computer Vision</li></ul></div>
+          <div class="stack-wide stack-group"><h3>Misc Systems</h3><ul><li>ROS/ROS2</li><li>Hyperledger Fabric</li></ul></div>  
+        </div>
+      </section>
+
+      <section class="section container" aria-labelledby="principles-title">
+        <p class="section-label">Soft Skills & Principles</p>
+        <h2 id="principles-title">How I approach my work.</h2>
+        <ol class="principles">
+          <li>
+            <span>01</span>
+            <div><strong>Relentless Problem Solving</strong>
+            <p class="principle-desc">Approaching unpredictable system behaviors with structural debugging, patience, and a drive to isolate root causes.</p>
+            </div>
+          </li>
+          <li>
+            <span>02</span>
+            <div><strong>Methodical Execution under Tight Constraints</strong> 
+              <p class="principle-desc">Maintaining clarity, operational focus, and systematic decision-making when dealing with fragile system environments, complex
+                 debugging loops, and tight project milestones.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span>03</span>
+            <div><strong>High-Clarity Technical Communication</strong>
+              <p class="principle-desc">Translating complex low-level mechanisms and experimental data into concise, actionable 
+                insights for both deep specialists and cross-functional teams.
+              </p> 
+            </div>
+          </li>
+          <li>
+            <span>04</span>
+            <div><strong>End to End Ownership</strong>
+              <p class="principle-desc">Taking full accountability for the entire system lifecycle, from architectural conception and rapid prototyping 
+                to rigorous stress-testing under real constraints.
+              </p> 
+            </div>
+          </li>
+          <li>
+            <span>05</span>
+            <div><strong>Uncompromising Growth and Rapid Mastery</strong>
+              <p class="principle-desc">Driven by an unwavering commitment to expand technical and personal capability; 
+                systematically bridging the gap from unfamiliar domains to deep engineering fluency through sustained focus and fast iteration.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section contact container" id="contact" aria-labelledby="contact-title">
+        <p class="section-label">Contact</p>
+        <h2 id="contact-title">Let’s connect.</h2>
+        <p>Always open to discussing systems security, applied machine learning research, or potential engineering roles.</p>
+        <div class="contact-links">
+          <a href="https://github.com/HustLR01/" target="_blank" rel="noopener noreferrer" aria-label="Rocco Luigi on GitHub (opens in a new tab)">
+            <span>GitHub</span><span aria-hidden="true">↗︎</span>
+          </a>
+          <a href="https://www.linkedin.com/in/rocco-luigi-racamato" target="_blank" rel="noopener noreferrer" aria-label="Rocco Luigi on LinkedIn (opens in a new tab)">
+            <span>LinkedIn</span><span aria-hidden="true">↗︎</span>
+          </a>
+          <a href="mailto:roccoluigiracamato@gmail.com" aria-label="Email Rocco Luigi"><span>Email</span><span aria-hidden="true">↗︎</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <p class="excellence-line"><span class="excellence-mark" aria-hidden="true"></span><span>“We are what we repeatedly do. Excellence, then, is not an act, but a habit.” 
+      – Aristotle</span>
+    </p>
+      <p>© <span id="year">2026</span> Rocco Luigi Racamato</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
